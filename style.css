@@ -648,10 +648,14 @@ nav button {
     .shopping p {
         padding-top: 5px;
         text-align: center;
-        width: 75%;
+        width: 70%;
         margin: auto;
         font-size: 14px;
         line-height: 17px;
+    }
+
+    .shoper {
+        width: 80%;
     }
 
     .shop{
