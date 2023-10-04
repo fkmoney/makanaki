@@ -658,6 +658,14 @@ nav button {
         width: 85%;
     }
 
+    .shoper input {
+        padding: 10px 40px;
+    }
+
+    .shop button {
+        padding: 3px 8px;
+    }
+
     .shop{
         margin-top: 10px;
         width: 92%;
