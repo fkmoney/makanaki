@@ -53,6 +53,11 @@ nav button {
     margin-top: 40px;
     align-items: center;
     justify-content: space-between;
+    padding: 10px 40px 0px 40px;
+}
+
+.explore-left {
+    padding-bottom: 20px;
 }
 
 .explore-left h1 {
@@ -90,7 +95,7 @@ nav button {
 
 .explore-right img{
      width: 450px;
-     height: 450px;
+     height: 490px;
 }
 
 .colour {
@@ -124,12 +129,13 @@ nav button {
     margin: auto;
     padding-top: 30px;
     display: flex;
+    justify-content: space-between;
     gap: 35px;
 }
 
 .navigate1 img {
-      width: 320px;
-      height: 410px;
+      width: 350px;
+      height: 450px;
 }
 
 .navigator {
@@ -166,7 +172,7 @@ nav button {
     width: 75%;
     margin: auto;
     align-items: center;
-    gap: 150px;
+    gap: 110px;
 }
 
 .outline-img {
@@ -174,8 +180,8 @@ nav button {
 }
 
 .outline-img img {
-    width: 450px;
-    height: 420x;
+    width: 500px;
+    height: 450x;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -357,26 +363,23 @@ nav button {
 }
 
 .shop {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid white;
-    width: 26%;
+    background-color: #fff;
+    width: 20%;
     margin: auto;
     border-radius: 5px;
-    background: #FFF;
+    padding: 2px;
+
 }
 
-.shoper input {
+.shop input {
     border: none;
-    padding: 10px 37px;
-    border-radius: 5px;
+    outline: none;
 }
 
-.shops button {
+.shop button {
     background: #000;
     color: white;
-    padding: 5px 20px;
+    padding: 4px 15px;
     border-radius: 3px;
 }
 
@@ -435,7 +438,7 @@ nav button {
 
 
 
-@media (max-width: 490px) {
+@media (max-width: 485px) {
     *{
         padding: 0;
         margin: 0;
@@ -654,23 +657,10 @@ nav button {
         line-height: 17px;
     }
 
-    .shoper {
-        width: 86%;
+    .shop {
+        width: 65%;
+        margin-top: 15px;
     }
-
-    .shoper input {
-        padding: 10px 37px;
-    }
-
-    .shop button {
-        padding: 3px 8px;
-    }
-
-    .shop{
-        margin-top: 10px;
-        width: 92%;
-    }
-
 
     .footers  {
         padding-top: 40px;
